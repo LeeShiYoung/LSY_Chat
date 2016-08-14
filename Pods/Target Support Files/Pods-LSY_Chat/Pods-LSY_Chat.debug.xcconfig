@@ -1,0 +1,12 @@
+EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Alamofire" "$PODS_CONFIGURATION_BUILD_DIR/AlamofireImage" "$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/HyphenateSDK"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/HyphenateSDK/HyphenateSDK/lib" $(inherited) "${PODS_ROOT}/HyphenateSDK/HyphenateSDK/lib/3rdparty"
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/Alamofire/Alamofire.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/AlamofireImage/AlamofireImage.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD/SVProgressHUD.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/HyphenateSDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"HyphenateSDK_arm64" -l"HyphenateSDK_armv7" -l"HyphenateSDK_i386" -l"HyphenateSDK_x86_64" -l"c++" -l"crypto" -l"curl" -l"sqlite3" -l"ssl" -l"stdc++.6.0.9" -l"z" -framework "AVFoundation" -framework "Alamofire" -framework "AlamofireImage" -framework "AudioToolbox" -framework "CoreMedia" -framework "ImageIO" -framework "MobileCoreServices" -framework "SVProgressHUD"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

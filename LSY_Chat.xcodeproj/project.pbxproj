@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F6CD0A71D6092420072CEF1 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CD0A61D6092420072CEF1 /* Category.swift */; };
+		1FA3F4E11D5F269400C81FD7 /* LSYIM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3F4E01D5F269400C81FD7 /* LSYIM.swift */; };
+		1FA3F4E31D5F5B6F00C81FD7 /* LSYStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3F4E21D5F5B6F00C81FD7 /* LSYStruct.swift */; };
 		C92410261D5D7B6E008E6D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92410251D5D7B6E008E6D84 /* AppDelegate.swift */; };
 		C92410281D5D7B6E008E6D84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92410271D5D7B6E008E6D84 /* ViewController.swift */; };
 		C924102B1D5D7B6E008E6D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92410291D5D7B6E008E6D84 /* Main.storyboard */; };
@@ -14,6 +17,25 @@
 		C92410301D5D7B6E008E6D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C924102E1D5D7B6E008E6D84 /* LaunchScreen.storyboard */; };
 		C924103B1D5D7B6E008E6D84 /* LSY_ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C924103A1D5D7B6E008E6D84 /* LSY_ChatTests.swift */; };
 		C92410461D5D7B6E008E6D84 /* LSY_ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92410451D5D7B6E008E6D84 /* LSY_ChatUITests.swift */; };
+		C92410831D5D8156008E6D84 /* FTChatMessageAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92410741D5D8156008E6D84 /* FTChatMessageAccessoryView.swift */; };
+		C92410841D5D8156008E6D84 /* FTChatMessageBubbleAudioItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92410751D5D8156008E6D84 /* FTChatMessageBubbleAudioItem.swift */; };
+		C92410851D5D8156008E6D84 /* FTChatMessageBubbleImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92410761D5D8156008E6D84 /* FTChatMessageBubbleImageItem.swift */; };
+		C92410861D5D8156008E6D84 /* FTChatMessageBubbleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92410771D5D8156008E6D84 /* FTChatMessageBubbleItem.swift */; };
+		C92410871D5D8156008E6D84 /* FTChatMessageBubbleLocationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92410781D5D8156008E6D84 /* FTChatMessageBubbleLocationItem.swift */; };
+		C92410881D5D8156008E6D84 /* FTChatMessageBubbleTextItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92410791D5D8156008E6D84 /* FTChatMessageBubbleTextItem.swift */; };
+		C92410891D5D8156008E6D84 /* FTChatMessageBubbleVideoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C924107A1D5D8156008E6D84 /* FTChatMessageBubbleVideoItem.swift */; };
+		C924108A1D5D8156008E6D84 /* FTChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C924107B1D5D8156008E6D84 /* FTChatMessageCell.swift */; };
+		C924108B1D5D8156008E6D84 /* FTChatMessageHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C924107C1D5D8156008E6D84 /* FTChatMessageHeader.swift */; };
+		C924108C1D5D8156008E6D84 /* FTChatMessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C924107D1D5D8156008E6D84 /* FTChatMessageInputView.swift */; };
+		C924108D1D5D8156008E6D84 /* FTChatMessageMarcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C924107E1D5D8156008E6D84 /* FTChatMessageMarcos.swift */; };
+		C924108E1D5D8156008E6D84 /* FTChatMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C924107F1D5D8156008E6D84 /* FTChatMessageModel.swift */; };
+		C924108F1D5D8156008E6D84 /* FTChatMessageRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92410801D5D8156008E6D84 /* FTChatMessageRecordView.swift */; };
+		C92410901D5D8156008E6D84 /* FTChatMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92410811D5D8156008E6D84 /* FTChatMessageTableViewController.swift */; };
+		C92410911D5D8156008E6D84 /* FTChatMessageUIHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92410821D5D8156008E6D84 /* FTChatMessageUIHeader.swift */; };
+		C92410931D5D8194008E6D84 /* LSYChatDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92410921D5D8194008E6D84 /* LSYChatDemoViewController.swift */; };
+		D46DC863F62B6BE1C9CBD291 /* Pods_LSY_ChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4531835E2112591CF792407E /* Pods_LSY_ChatTests.framework */; };
+		D82D9C16487310A6F8BDB443 /* Pods_LSY_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19579F2D0E2AD422A1E610D /* Pods_LSY_Chat.framework */; };
+		E76D96DA2C6C3525B5628284 /* Pods_LSY_ChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004FC4AF6B30A8D0FC33931F /* Pods_LSY_ChatUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +56,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004FC4AF6B30A8D0FC33931F /* Pods_LSY_ChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSY_ChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		199522788E9B35CE27C98594 /* Pods-LSY_Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSY_Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSY_Chat/Pods-LSY_Chat.release.xcconfig"; sourceTree = "<group>"; };
+		1F6CD0A61D6092420072CEF1 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		1FA3F4E01D5F269400C81FD7 /* LSYIM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSYIM.swift; sourceTree = "<group>"; };
+		1FA3F4E21D5F5B6F00C81FD7 /* LSYStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSYStruct.swift; sourceTree = "<group>"; };
+		4531835E2112591CF792407E /* Pods_LSY_ChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSY_ChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8988EF0F1951A687B241FFAF /* Pods-LSY_ChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSY_ChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSY_ChatTests/Pods-LSY_ChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F3BFA715CB32FED90D353D0 /* Pods-LSY_ChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSY_ChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSY_ChatUITests/Pods-LSY_ChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B19579F2D0E2AD422A1E610D /* Pods_LSY_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSY_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BE767ABC3AB0302A05937C /* Pods-LSY_ChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSY_ChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSY_ChatTests/Pods-LSY_ChatTests.release.xcconfig"; sourceTree = "<group>"; };
 		C92410221D5D7B6E008E6D84 /* LSY_Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSY_Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92410251D5D7B6E008E6D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C92410271D5D7B6E008E6D84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +79,25 @@
 		C92410411D5D7B6E008E6D84 /* LSY_ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSY_ChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92410451D5D7B6E008E6D84 /* LSY_ChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSY_ChatUITests.swift; sourceTree = "<group>"; };
 		C92410471D5D7B6E008E6D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C92410741D5D8156008E6D84 /* FTChatMessageAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTChatMessageAccessoryView.swift; sourceTree = "<group>"; };
+		C92410751D5D8156008E6D84 /* FTChatMessageBubbleAudioItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTChatMessageBubbleAudioItem.swift; sourceTree = "<group>"; };
+		C92410761D5D8156008E6D84 /* FTChatMessageBubbleImageItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTChatMessageBubbleImageItem.swift; sourceTree = "<group>"; };
+		C92410771D5D8156008E6D84 /* FTChatMessageBubbleItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTChatMessageBubbleItem.swift; sourceTree = "<group>"; };
+		C92410781D5D8156008E6D84 /* FTChatMessageBubbleLocationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTChatMessageBubbleLocationItem.swift; sourceTree = "<group>"; };
+		C92410791D5D8156008E6D84 /* FTChatMessageBubbleTextItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTChatMessageBubbleTextItem.swift; sourceTree = "<group>"; };
+		C924107A1D5D8156008E6D84 /* FTChatMessageBubbleVideoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTChatMessageBubbleVideoItem.swift; sourceTree = "<group>"; };
+		C924107B1D5D8156008E6D84 /* FTChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTChatMessageCell.swift; sourceTree = "<group>"; };
+		C924107C1D5D8156008E6D84 /* FTChatMessageHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTChatMessageHeader.swift; sourceTree = "<group>"; };
+		C924107D1D5D8156008E6D84 /* FTChatMessageInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTChatMessageInputView.swift; sourceTree = "<group>"; };
+		C924107E1D5D8156008E6D84 /* FTChatMessageMarcos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTChatMessageMarcos.swift; sourceTree = "<group>"; };
+		C924107F1D5D8156008E6D84 /* FTChatMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTChatMessageModel.swift; sourceTree = "<group>"; };
+		C92410801D5D8156008E6D84 /* FTChatMessageRecordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTChatMessageRecordView.swift; sourceTree = "<group>"; };
+		C92410811D5D8156008E6D84 /* FTChatMessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTChatMessageTableViewController.swift; sourceTree = "<group>"; };
+		C92410821D5D8156008E6D84 /* FTChatMessageUIHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTChatMessageUIHeader.swift; sourceTree = "<group>"; };
+		C92410921D5D8194008E6D84 /* LSYChatDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSYChatDemoViewController.swift; sourceTree = "<group>"; };
+		C92410971D5DBBDD008E6D84 /* LSY_Chat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LSY_Chat-Bridging-Header.h"; sourceTree = "<group>"; };
+		D6B7CF36EF82F50886E6867A /* Pods-LSY_Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSY_Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSY_Chat/Pods-LSY_Chat.debug.xcconfig"; sourceTree = "<group>"; };
+		E4FB9E02FF8F0718CD442741 /* Pods-LSY_ChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSY_ChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSY_ChatUITests/Pods-LSY_ChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D82D9C16487310A6F8BDB443 /* Pods_LSY_Chat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46DC863F62B6BE1C9CBD291 /* Pods_LSY_ChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +121,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76D96DA2C6C3525B5628284 /* Pods_LSY_ChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		341BEF3BDBDB31365DD90488 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B19579F2D0E2AD422A1E610D /* Pods_LSY_Chat.framework */,
+				4531835E2112591CF792407E /* Pods_LSY_ChatTests.framework */,
+				004FC4AF6B30A8D0FC33931F /* Pods_LSY_ChatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81B4389800062AD486434E3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6B7CF36EF82F50886E6867A /* Pods-LSY_Chat.debug.xcconfig */,
+				199522788E9B35CE27C98594 /* Pods-LSY_Chat.release.xcconfig */,
+				8988EF0F1951A687B241FFAF /* Pods-LSY_ChatTests.debug.xcconfig */,
+				C7BE767ABC3AB0302A05937C /* Pods-LSY_ChatTests.release.xcconfig */,
+				E4FB9E02FF8F0718CD442741 /* Pods-LSY_ChatUITests.debug.xcconfig */,
+				8F3BFA715CB32FED90D353D0 /* Pods-LSY_ChatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C92410191D5D7B6E008E6D84 = {
 			isa = PBXGroup;
 			children = (
+				C92410971D5DBBDD008E6D84 /* LSY_Chat-Bridging-Header.h */,
+				C92410921D5D8194008E6D84 /* LSYChatDemoViewController.swift */,
 				C92410241D5D7B6E008E6D84 /* LSY_Chat */,
 				C92410391D5D7B6E008E6D84 /* LSY_ChatTests */,
 				C92410441D5D7B6E008E6D84 /* LSY_ChatUITests */,
 				C92410231D5D7B6E008E6D84 /* Products */,
+				81B4389800062AD486434E3C /* Pods */,
+				341BEF3BDBDB31365DD90488 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				C92410251D5D7B6E008E6D84 /* AppDelegate.swift */,
+				C92410721D5D813E008E6D84 /* LSYChatMessage */,
 				C92410271D5D7B6E008E6D84 /* ViewController.swift */,
 				C92410291D5D7B6E008E6D84 /* Main.storyboard */,
 				C924102C1D5D7B6E008E6D84 /* Assets.xcassets */,
@@ -125,6 +207,39 @@
 			path = LSY_ChatUITests;
 			sourceTree = "<group>";
 		};
+		C92410721D5D813E008E6D84 /* LSYChatMessage */ = {
+			isa = PBXGroup;
+			children = (
+				C92410731D5D8156008E6D84 /* FTChatMessage */,
+				1FA3F4E01D5F269400C81FD7 /* LSYIM.swift */,
+				1FA3F4E21D5F5B6F00C81FD7 /* LSYStruct.swift */,
+				1F6CD0A61D6092420072CEF1 /* Category.swift */,
+			);
+			path = LSYChatMessage;
+			sourceTree = "<group>";
+		};
+		C92410731D5D8156008E6D84 /* FTChatMessage */ = {
+			isa = PBXGroup;
+			children = (
+				C92410741D5D8156008E6D84 /* FTChatMessageAccessoryView.swift */,
+				C92410751D5D8156008E6D84 /* FTChatMessageBubbleAudioItem.swift */,
+				C92410761D5D8156008E6D84 /* FTChatMessageBubbleImageItem.swift */,
+				C92410771D5D8156008E6D84 /* FTChatMessageBubbleItem.swift */,
+				C92410781D5D8156008E6D84 /* FTChatMessageBubbleLocationItem.swift */,
+				C92410791D5D8156008E6D84 /* FTChatMessageBubbleTextItem.swift */,
+				C924107A1D5D8156008E6D84 /* FTChatMessageBubbleVideoItem.swift */,
+				C924107B1D5D8156008E6D84 /* FTChatMessageCell.swift */,
+				C924107C1D5D8156008E6D84 /* FTChatMessageHeader.swift */,
+				C924107D1D5D8156008E6D84 /* FTChatMessageInputView.swift */,
+				C924107E1D5D8156008E6D84 /* FTChatMessageMarcos.swift */,
+				C924107F1D5D8156008E6D84 /* FTChatMessageModel.swift */,
+				C92410801D5D8156008E6D84 /* FTChatMessageRecordView.swift */,
+				C92410811D5D8156008E6D84 /* FTChatMessageTableViewController.swift */,
+				C92410821D5D8156008E6D84 /* FTChatMessageUIHeader.swift */,
+			);
+			path = FTChatMessage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C924104A1D5D7B6E008E6D84 /* Build configuration list for PBXNativeTarget "LSY_Chat" */;
 			buildPhases = (
+				B0B6B540FFDED26C15DB199E /* [CP] Check Pods Manifest.lock */,
 				C924101E1D5D7B6E008E6D84 /* Sources */,
 				C924101F1D5D7B6E008E6D84 /* Frameworks */,
 				C92410201D5D7B6E008E6D84 /* Resources */,
+				0997EFDE339E01C1CB688582 /* [CP] Embed Pods Frameworks */,
+				C70C77237B35B2AA2134623E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C924104D1D5D7B6E008E6D84 /* Build configuration list for PBXNativeTarget "LSY_ChatTests" */;
 			buildPhases = (
+				144B35A81094AECB67B76D20 /* [CP] Check Pods Manifest.lock */,
 				C92410321D5D7B6E008E6D84 /* Sources */,
 				C92410331D5D7B6E008E6D84 /* Frameworks */,
 				C92410341D5D7B6E008E6D84 /* Resources */,
+				F2F953C73AE95F4CCCCA32DA /* [CP] Embed Pods Frameworks */,
+				CA9058CBABE174976A00AB6F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C92410501D5D7B6E008E6D84 /* Build configuration list for PBXNativeTarget "LSY_ChatUITests" */;
 			buildPhases = (
+				C3F00ADF3021FA705BAC53C8 /* [CP] Check Pods Manifest.lock */,
 				C924103D1D5D7B6E008E6D84 /* Sources */,
 				C924103E1D5D7B6E008E6D84 /* Frameworks */,
 				C924103F1D5D7B6E008E6D84 /* Resources */,
+				62E32FDA777C4AA37E053BA9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,12 +310,14 @@
 		C924101A1D5D7B6E008E6D84 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LSY;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "李世洋";
 				TargetAttributes = {
 					C92410211D5D7B6E008E6D84 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 97A9RUBN84;
 					};
 					C92410351D5D7B6E008E6D84 = {
 						CreatedOnToolsVersion = 7.3;
@@ -251,13 +376,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0997EFDE339E01C1CB688582 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSY_Chat/Pods-LSY_Chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		144B35A81094AECB67B76D20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		62E32FDA777C4AA37E053BA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSY_ChatUITests/Pods-LSY_ChatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0B6B540FFDED26C15DB199E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3F00ADF3021FA705BAC53C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C70C77237B35B2AA2134623E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSY_Chat/Pods-LSY_Chat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA9058CBABE174976A00AB6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSY_ChatTests/Pods-LSY_ChatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2F953C73AE95F4CCCCA32DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSY_ChatTests/Pods-LSY_ChatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C924101E1D5D7B6E008E6D84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C92410871D5D8156008E6D84 /* FTChatMessageBubbleLocationItem.swift in Sources */,
+				1FA3F4E11D5F269400C81FD7 /* LSYIM.swift in Sources */,
+				C924108C1D5D8156008E6D84 /* FTChatMessageInputView.swift in Sources */,
+				C92410881D5D8156008E6D84 /* FTChatMessageBubbleTextItem.swift in Sources */,
+				C92410831D5D8156008E6D84 /* FTChatMessageAccessoryView.swift in Sources */,
+				C924108B1D5D8156008E6D84 /* FTChatMessageHeader.swift in Sources */,
+				C924108F1D5D8156008E6D84 /* FTChatMessageRecordView.swift in Sources */,
+				C92410841D5D8156008E6D84 /* FTChatMessageBubbleAudioItem.swift in Sources */,
+				C92410901D5D8156008E6D84 /* FTChatMessageTableViewController.swift in Sources */,
+				C92410851D5D8156008E6D84 /* FTChatMessageBubbleImageItem.swift in Sources */,
+				C924108A1D5D8156008E6D84 /* FTChatMessageCell.swift in Sources */,
+				C92410911D5D8156008E6D84 /* FTChatMessageUIHeader.swift in Sources */,
+				C924108D1D5D8156008E6D84 /* FTChatMessageMarcos.swift in Sources */,
+				C924108E1D5D8156008E6D84 /* FTChatMessageModel.swift in Sources */,
 				C92410281D5D7B6E008E6D84 /* ViewController.swift in Sources */,
+				1FA3F4E31D5F5B6F00C81FD7 /* LSYStruct.swift in Sources */,
+				C92410891D5D8156008E6D84 /* FTChatMessageBubbleVideoItem.swift in Sources */,
+				C92410861D5D8156008E6D84 /* FTChatMessageBubbleItem.swift in Sources */,
+				C92410931D5D8194008E6D84 /* LSYChatDemoViewController.swift in Sources */,
 				C92410261D5D7B6E008E6D84 /* AppDelegate.swift in Sources */,
+				1F6CD0A71D6092420072CEF1 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,28 +666,46 @@
 		};
 		C924104B1D5D7B6E008E6D84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6B7CF36EF82F50886E6867A /* Pods-LSY_Chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = LSY_Chat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "lishiyang.LSY-Chat";
+				PRODUCT_BUNDLE_IDENTIFIER = LSYProject.test4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LSY_Chat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		C924104C1D5D7B6E008E6D84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 199522788E9B35CE27C98594 /* Pods-LSY_Chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = LSY_Chat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "lishiyang.LSY-Chat";
+				PRODUCT_BUNDLE_IDENTIFIER = LSYProject.test4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LSY_Chat-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		C924104E1D5D7B6E008E6D84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8988EF0F1951A687B241FFAF /* Pods-LSY_ChatTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LSY_ChatTests/Info.plist;
@@ -433,6 +718,7 @@
 		};
 		C924104F1D5D7B6E008E6D84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7BE767ABC3AB0302A05937C /* Pods-LSY_ChatTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LSY_ChatTests/Info.plist;
@@ -445,6 +731,7 @@
 		};
 		C92410511D5D7B6E008E6D84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4FB9E02FF8F0718CD442741 /* Pods-LSY_ChatUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LSY_ChatUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +743,7 @@
 		};
 		C92410521D5D7B6E008E6D84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F3BFA715CB32FED90D353D0 /* Pods-LSY_ChatUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LSY_ChatUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +772,7 @@
 				C924104C1D5D7B6E008E6D84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C924104D1D5D7B6E008E6D84 /* Build configuration list for PBXNativeTarget "LSY_ChatTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +781,7 @@
 				C924104F1D5D7B6E008E6D84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C92410501D5D7B6E008E6D84 /* Build configuration list for PBXNativeTarget "LSY_ChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +790,7 @@
 				C92410521D5D7B6E008E6D84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
